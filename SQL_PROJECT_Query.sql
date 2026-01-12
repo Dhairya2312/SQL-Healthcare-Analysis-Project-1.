@@ -1,4 +1,4 @@
-/***
+/***  0. TABLE NAME 
 SELECT*FROM treatments
 SELECT*FROM appointments
 SELECT*FROM insurance
@@ -80,4 +80,5 @@ from patients
 where city ='Cambridge'
 
 --12 
+
 
