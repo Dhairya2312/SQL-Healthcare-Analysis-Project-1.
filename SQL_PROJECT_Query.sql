@@ -78,3 +78,6 @@ from insurance
 select * 
 from patients
 where city ='Cambridge'
+
+--12 
+
