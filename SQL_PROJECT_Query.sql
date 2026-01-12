@@ -8,18 +8,18 @@ SELECT*FROM departments
 ***/
 
 
--- 1.Retrieve all doctors who specialize in 'Cardiologist'
+--1.Retrieve all doctors who specialize in 'Cardiologist'
 
 select * 
 from doctors
 where specialization = 'Cardiologist'
 
--- 2.Find all patients Blood groip 'O+'
+--2.Find all patients Blood groip 'O+'
 
 select * from patients
 where blood_type = 'O+'
 
--- 3.List all departments with their budget in descending order
+--3.List all departments with their budget in descending order
 
 select department_name,annual_budget
 from departments
@@ -53,24 +53,24 @@ order by treatment_cost DESC
 
 --7.Get the average treatment cost across all treatments
 
-SELECT AVG(treatment_cost) AS AVGCOST 
-FROM treatments
+select AVG(treatment_cost) AS AVGCOST 
+from treatments
 
 --8.Find departments with a budget greater than 3000000.00
 
-SELECT *
-FROM departments 
-WHERE annual_budget > 3000000.00
+select *
+from departments 
+where annual_budget > 3000000.00
 
 --9.List all patients whose names start with 'J'
 
-SELECT *
-FROM patients
-WHERE (first_name) LIKE 'j%';
+select *
+from patients
+where (first_name) LIKE 'j%';
 
 --10.List all insurance providers in the system
 
-select DISTINCT provider_name
+select distinct  provider_name
 from insurance
 
 --11.Find patients who live in a specific city (e.g., 'Cambridge')
