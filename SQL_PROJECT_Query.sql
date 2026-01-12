@@ -52,7 +52,7 @@ ORDER BY department_name,first_name DESC
 --6.List the top 5 most expensive treatments
 
 select top 5 (treatment_cost)
-from [dbo].[treatments]
+from treatments
 order by treatment_cost DESC
 
 --7.Get the average treatment cost across all treatments
@@ -70,11 +70,11 @@ where annual_budget > 3000000.00
 
 select *
 from patients
-where (first_name) LIKE 'j%';
+where first_name LIKE 'j%';
 
 --10.List all insurance providers in the system
 
-select distinct  provider_name
+select distinct provider_name
 from insurance
 
 --11.Find patients who live in a specific city (e.g., 'Cambridge')
@@ -84,6 +84,7 @@ from patients
 where city ='Cambridge'
 
 --12 
+
 
 
 
