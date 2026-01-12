@@ -7,6 +7,10 @@ SELECT*FROM doctors
 SELECT*FROM departments
 ***/
 
+--Database Selection
+
+USE HEALTHCARE
+GO
 
 --1.Retrieve all doctors who specialize in 'Cardiologist'
 
@@ -80,5 +84,6 @@ from patients
 where city ='Cambridge'
 
 --12 
+
 
 
