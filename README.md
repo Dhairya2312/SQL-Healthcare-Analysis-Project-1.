@@ -1,2 +1,2 @@
-# SQL-Healthcare-Analysis-Project-1.
+# SQL-Healthcare-Analysis-Project.
 Healthcare-Analysis
